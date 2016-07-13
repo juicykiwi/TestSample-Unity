@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSceneLoadData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SceneLoadData>
+    <_id>1</_id>
+    <_message>Message01</_message>
+  </SceneLoadData>
+  <SceneLoadData>
+    <_id>2</_id>
+    <_message>Message02</_message>
+  </SceneLoadData>
+  <SceneLoadData>
+    <_id>3</_id>
+    <_message>Message03</_message>
+  </SceneLoadData>
+  <SceneLoadData>
+    <_id>4</_id>
+    <_message>메시지04</_message>
+  </SceneLoadData>
+</ArrayOfSceneLoadData>
