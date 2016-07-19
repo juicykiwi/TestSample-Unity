@@ -35,8 +35,8 @@ public class TileManager : Singleton<TileManager>
         if (IsAlreadyCreateTile == true)
             return;
 
-        _mapRect.xMin = Mathf.Round(_tileBoxSize.offset.x + 0.1f - _tileBoxSize.size.x * 0.5f);
-        _mapRect.yMin = Mathf.Round(_tileBoxSize.offset.y + 0.1f - _tileBoxSize.size.y * 0.5f);
+        _mapRect.xMin = Mathf.Round(_tileBoxSize.offset.x - _tileBoxSize.size.x * 0.5f);
+        _mapRect.yMin = Mathf.Round(_tileBoxSize.offset.y - _tileBoxSize.size.y * 0.5f);
         _mapRect.width = Mathf.Round(_tileBoxSize.size.x);
         _mapRect.height = Mathf.Round(_tileBoxSize.size.y);
 
